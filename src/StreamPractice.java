@@ -1,6 +1,5 @@
 import java.util.List;
 
-
 public class StreamPractice {
 
     public static void main(String[] args) {
@@ -13,7 +12,6 @@ public class StreamPractice {
 
         long c1 = names.stream().filter(name -> name.contains("a")).count();
         System.out.println(c1);
-
 
     }
 }
