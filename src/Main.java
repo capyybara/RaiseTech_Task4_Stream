@@ -11,8 +11,11 @@ public class Main {
         for (String name : names) {
             if (name.contains("a")) {
                 result.add(name);
+                System.out.println(name);
             }
         }
 
     }
 }
+
+
