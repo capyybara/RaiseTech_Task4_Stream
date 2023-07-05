@@ -7,7 +7,7 @@ public class StreamPractice {
         List<String> names = List.of("Tama", "Hachi", "suzuki", "Goro", "Nana");
         List<String> sortedResult = names.stream().sorted().toList();
 
-        for(String name: sortedResult){
+        for (String name : sortedResult) {
             System.out.println(name);
         }
 
