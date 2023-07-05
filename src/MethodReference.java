@@ -18,7 +18,5 @@ public class MethodReference {
         System.out.println(c1);
 
 
-
-
     }
 }
