@@ -11,7 +11,11 @@ public class MethodReference {
                 .sorted()
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
-        System.out.println(names);
+        
+        for (String catname : names){
+            System.out.println(catname);    
+        }
+        
 
 
         System.out.println("「リストを昇順に表示」");
