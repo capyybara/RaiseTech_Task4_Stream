@@ -1,4 +1,4 @@
-# RaiseTech_Task_Stream
+# RaiseTech_Task4_Stream
 ## 第4回課題
 
 ### Streamを用いた構文
