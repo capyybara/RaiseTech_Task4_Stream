@@ -6,8 +6,8 @@ public class StreamPractice {
     public static void main(String[] args) {
         List<String> names = List.of("Tama", "Hachi", "suzuki", "Goro", "Nana");
 
-        long c1 = names.stream().filter(name -> name.contains("a")).count();
-        System.out.println(c1);
+        long count1 = names.stream().filter(name -> name.contains("a")).count();
+        System.out.println(count1);
 
         System.out.println("[複数条件で表示したい]");
         names = names.stream()
@@ -18,7 +18,6 @@ public class StreamPractice {
         for (String catname : names){
             System.out.println(catname);
         }
-
 
     }
 }
