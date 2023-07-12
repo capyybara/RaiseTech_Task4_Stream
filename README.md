@@ -3,7 +3,7 @@
 
 ### Streamを用いた構文
   
- -  [ StreamPractice ](https://github.com/capyybara/RaiseTech_Task_Stream/blob/master/src/StreamPractice.java) のクラスに記述があります。
+ -  [ StreamPractice ](https://github.com/capyybara/RaiseTech_Task_Stream/blob/master/src/StreamPractice.java) のクラスに記述があります。（初回提出時より修正されています） 
 <br>
 <br>
 <sub>※デバッガーに関しては、
