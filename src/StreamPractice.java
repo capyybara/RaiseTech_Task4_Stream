@@ -11,7 +11,7 @@ public class StreamPractice {
         System.out.println(count);
 
 
-        System.out.println("[複数条件で表示したい]");
+        System.out.println("[複数条件で表示]");
         names = names.stream()
                 .sorted()
                 .map(String::toUpperCase)
