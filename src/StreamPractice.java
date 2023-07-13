@@ -19,5 +19,13 @@ public class StreamPractice {
 
         names.forEach(System.out::println);
 
+// ↓これでも出力可能。しかし[names = names.stream()…] にするとエラーが出る
+        names.stream()
+                .sorted()
+                .map(String::toUpperCase)
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+
+
     }
 }
